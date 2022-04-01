@@ -5,7 +5,7 @@ import "./index.css"
 
 function App() {
   return (
-    <div className="contene">
+    <div className="container">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Inicio></Inicio>}></Route>
