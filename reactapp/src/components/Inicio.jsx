@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import { todosPersonajes } from '../functions/api'
 
 
@@ -15,9 +15,10 @@ import { todosPersonajes } from '../functions/api'
     {personajes != null ? (
       personajes.map(personaje => (
         <div key={personaje.id}>
-          <a href={"<personajes/${personajes.id}"}>{personaje.name}</a>
-          
-          </div>))
+          <a href={`personaje/${personaje.id}`}>{personaje.name}</a>
+
+          </div>
+          ))
 
     ) : ("Cargando...")}
     
