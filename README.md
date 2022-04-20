@@ -7,7 +7,8 @@ CONTENTS OF THIS FILE
  * Requirements
  * Installation
  * Configuration
-
+ * Deployment
+ 
 *INTRODUCTION
 
 A simple fetching from Rick and morty API using axios. I used React for the app and Javascript for logics.
